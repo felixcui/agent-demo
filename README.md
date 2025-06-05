@@ -19,3 +19,13 @@
  - 销售总额最大的产品是什么
  - 帮我找出销售额不达标的供应商
  - 对比8月和9月销售情况，写一份报告
+
+## File Descriptions
+- `agent_demo.py`: This file likely contains the main script or entry point for running a demonstration of the agent's capabilities. It might showcase how the agent interacts with users or other systems.
+- `common.py`: This file probably holds common utility functions, classes, or constants that are shared across different modules of the agent project. This helps in avoiding code duplication and promoting modularity.
+- `main.py`: This is often the primary script that orchestrates the overall functionality of the agent. It might handle initialization, configuration loading, and the main execution loop or workflow.
+- `prompt.py`: This file likely deals with managing and generating prompts for the language model. It could contain templates or logic for creating effective prompts to guide the agent's behavior and responses.
+- `rag.py`: This file probably implements the Retrieval Augmented Generation (RAG) functionality. RAG combines retrieval mechanisms (like fetching documents) with generation models to provide more informed and contextually relevant responses.
+- `tools.py`: This file likely defines the tools that the agent can use to interact with its environment or perform specific tasks. This could include functions for listing directories, sending emails, analyzing data, etc.
+- `data/`: This directory is likely used to store data files that the agent uses, such as Excel spreadsheets, CSV files, or other data sources that the agent might need to process or analyze.
+- `images/`: This directory probably contains image files used in the project, such as diagrams in the README, UI elements, or any other visual assets.
